@@ -10,8 +10,8 @@ public class Bag {
             return;
         for ( int i = 0 ; i < newSize ; i ++){
             packBag( newSize - 1 );
- //          if ( newSize == 2)
-                display (newSize);
+
+            display (newSize);
             rotate ( newSize );
         }
     }
